@@ -17,7 +17,6 @@ public class GeneralTest extends BaseTest {
         loginPage.pressSubmitButton();
         subscriptionPage.pressUserButton();
         subscriptionPage.pressSubscriptionButton();
-        Thread.sleep(5000);
         assertEquals("Subscription", subscriptionPage.expectedTitle());
         subscriptionPage.pressHelpButton();
         subscriptionPage.addNewExchange();
